@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: 'Simplon BP Regular';
+    src: url('fonts/Simplon BP Regular.otf');
+
+}
+
 html,
 body {
     width: 100%;
@@ -11,7 +17,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Simplon BP Regular','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -42,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Simplon BP Regular','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
