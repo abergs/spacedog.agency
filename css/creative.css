@@ -131,6 +131,10 @@ aside {
     background-color: transparent;
 }
 
+.navbar-default .navbar-toggle {
+    border-color:transparent;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
