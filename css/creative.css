@@ -265,14 +265,18 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
-#services {
+#portfolio {
     background-color: #202430;
-    color: #f2f2f2;
+}
+
+#services {
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 #contact {
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: #202430;
+    color: #f2f2f2;
 }
 
 @media(min-width:992px) {
@@ -350,7 +354,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f2f2f2;
+    color: #333;
 }
 
 .no-gutter > [class*=col-] {
