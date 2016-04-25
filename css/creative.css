@@ -193,6 +193,7 @@ header {
     text-align: center;
     color: #fff;
     background-color: #202430;
+    background: url('../img/header2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
