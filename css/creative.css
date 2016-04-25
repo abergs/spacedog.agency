@@ -30,7 +30,7 @@ hr.light {
 }
 
 a {
-    color: #333;
+    color: #f2f2f2;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -38,7 +38,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #333;
+    color: #fff;
+    text-decoration: none;
 }
 
 h1,
@@ -356,6 +357,7 @@ header .header-content .header-content-inner p {
 .text-primary {
     color: #333;
 }
+
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
