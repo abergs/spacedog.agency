@@ -142,7 +142,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #fff;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -152,7 +152,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #fff;
     }
 
     .navbar-default .nav > li>a:hover,
@@ -367,8 +367,9 @@ header .header-content .header-content-inner p {
 
 .btn-default {
     border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    border: 2px;
+    color: #f2f2f2;
+    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -472,15 +473,20 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    border: 2px solid;
+    border-color: #f2f2f2;
+    border-radius: 0px;
     text-transform: uppercase;
     font-family: 'Simplon BP','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    padding: 6px 8px 6px 8px;
 }
 
 .btn-xl {
-    padding: 15px 30px;
+    padding: 15px 15px;
+}
+
+.btn-client {
+    margin-top: 10px;
 }
 
 ::-moz-selection {
