@@ -351,6 +351,16 @@ header .header-content .header-content-inner p {
     }
 }
 
+@media(max-width:375px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 14px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 13px;
+    }   
+}
+
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
