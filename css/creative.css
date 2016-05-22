@@ -7,12 +7,15 @@
 @font-face {
     font-family: 'Simplon BP';
     src: url('../fonts/Simplon BP.otf');
+
+    font-family: 'Simplon BP Medium';
+    src: url('../fonts/Simplon BP Medium.otf');
 }
 
 html,
 body {
     width: 100%;
-    height: 85%;
+    height: 100%;
 }
 
 body {
@@ -89,7 +92,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,0);
-    font-family: 'Simplon BP','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Simplon BP Medium','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -98,7 +101,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Simplon BP','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Simplon BP Medium','Helvetica Neue',Arial,sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -193,7 +196,7 @@ header {
     text-align: center;
     color: #fff;
     background-color: #202430;
-    background: url('../img/header2.jpg');
+    background: url('../img/header5.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -220,10 +223,9 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: #fff;
 }
 
 @media(min-width:768px) {
@@ -249,14 +251,24 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
-        max-width: 80%;
-        font-size: 18px;
+        max-width: 75%;
+        font-size: 24px;
     }
 }
 
 .logo {
     max-width: 150px;
+    margin-left: 25px;
 }
+
+.intro {
+    margin-top: 50px;
+    font-family: 'Simplon BP','Helvetica Neue',Arial,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+
 .section-heading {
     margin-top: 0;
     text-transform: uppercase;
@@ -496,7 +508,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-client {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 ::-moz-selection {
@@ -523,4 +535,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.project-focus {
+    font-size: 13px;
+    font-family: 'Simplon BP Medium',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 15px;
 }
