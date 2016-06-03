@@ -332,7 +332,7 @@ h2.intro-heading {
     text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
 }
 
-.section-heading {
+.latest-heading {
     margin-top: 0;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -341,6 +341,17 @@ h2.intro-heading {
     text-align: left;
     letter-spacing: 1px;
     color: #333;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Simplon BP Medium", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #8f6154;
 }
 
 .latest-client {
@@ -393,12 +404,26 @@ img.highlighted-img {
     background-color: #f2f2f2;
 }
 
-h2.latest-heading {
+h2.featured-heading {
     text-align: center;
     padding-top: 50px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+    visibility: hidden;
+}
+
+@media(max-width:435px) {
+    h2.featured-heading {
+    text-align: center;
+    padding-top: 50px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 1px rgba(0,0,0,1);
+    visibility: visible;
+}
 }
 
 .col-lg-4.text-center.latest {
@@ -754,14 +779,14 @@ button.btn.btn-default.btn-client.latest {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
-    background: #222;
+    color: #f2f2f2;
+    background: #202430;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
-    background: #222;
+    color: #f2f2f2;
+    background: #202430;
 }
 
 img::selection {
@@ -796,9 +821,9 @@ div.col-lg-12.clients.text-center {
     padding-top: 20px;
 }
 
-div.col-lg-1.client-logo.text-center {
-    margin-left: 10px;
-    margin-top: 10px;
+div.col-lg-2.client-logo.text-center {
+    margin: 0;
+    padding: 0;
 }
 
 img.client {
@@ -838,13 +863,13 @@ img.client {
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
     pointer-events: none;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 .cl-effect-13 a:hover::before,
 .cl-effect-13 a:focus::before {
     color: #fff;
-    text-shadow: 10px 0 #fff, -10px 0 #fff;
+    text-shadow: 20px 0 #fff, -20px 0 #fff;
 }
 
 .cl-effect-13 a:hover,
