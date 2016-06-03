@@ -56,12 +56,12 @@ h6 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1.1em;
     line-height: 1.5;
     text-align: left;
 }
@@ -124,7 +124,7 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0.8em;
     font-weight: 300;
     color: #fff;
 }
@@ -176,7 +176,7 @@ aside {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:773px) {
     .navbar {
         padding: 0;
     }
@@ -238,7 +238,7 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     color: #fff;
 }
@@ -275,6 +275,19 @@ header .header-content .header-content-inner p {
     max-width: 150px;
     margin-left: 25px;
     margin-top: 100px;
+}
+
+@-webkit-keyframes typing {
+    from { width: 0; }
+}
+
+@-moz-keyframes typing {
+    from { width: 0; }
+}
+
+.dog-name {
+    -webkit-animation: typing 4s steps(15, end) 1;
+    -moz-animation: typing 4s steps(15, end) 1;
 }
 
 h2.intro-heading {
@@ -329,6 +342,13 @@ h2.intro-heading {
     color: #8f6154;
 }
 
+#about {
+    z-index: 1000;
+    background: url("../img/abtbackground.jpg") no-repeat center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
@@ -336,6 +356,7 @@ h2.intro-heading {
 
 #portfolio {
     background-color: #202430;
+    box-shadow: 0px -10px 20px rgba(0,0,0,0.2);
 }
 
 
@@ -438,7 +459,7 @@ h2.portfolio-heading {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 h2.project-name {
@@ -446,7 +467,15 @@ h2.project-name {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 28px;
+    font-size: 1.5em;
+}
+
+p.project-description {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 1em;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 #services {
@@ -543,7 +572,7 @@ h2.hello {
     text-align: center;
     text-transform: uppercase;
     font-family: "Simplon BP Medium", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.4em;
     letter-spacing: 1px;
 }
 
@@ -551,7 +580,7 @@ p.hello {
     text-align: center;
     text-transform: uppercase;
     font-family: "Simplon BP Medium", Helvetica, Arial, sans-serif;
-    font-size: 10px;
+    font-size: 1em;
     letter-spacing: 1px;
     word-spacing: 20px;
 }
@@ -748,8 +777,8 @@ body {
 }
 
 #clients {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 div.col-lg-12.clients.text-center {
@@ -775,4 +804,40 @@ img.client {
     img.client {
         max-width: 150px;
     }
+}
+
+/* Effect 13: three circles */
+.cl-effect-13 a {
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    color: transparent;
+    content: '•';
+    text-shadow: 0 0 transparent;
+    font-size: 0.5em;
+    -webkit-transition: text-shadow 0.3s, color 0.3s;
+    -moz-transition: text-shadow 0.3s, color 0.3s;
+    transition: text-shadow 0.3s, color 0.3s;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    pointer-events: none;
+    margin-top: -20px;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before {
+    color: #fff;
+    text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+.cl-effect-13 a:hover,
+.cl-effect-13 a:focus {
+    color: #f2f2f2;
 }

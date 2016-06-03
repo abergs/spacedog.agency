@@ -11,6 +11,11 @@
     <meta name="theme-color" content="#202430">
     <meta name="og:image" content="img/header2.jpg">
 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+
     <title>spacedog.agency</title>
 
     <!-- Bootstrap Core CSS -->
@@ -50,6 +55,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav class="cl-effect-13">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -63,6 +69,7 @@
                     </li>
                 </ul>
             </div>
+            </nav>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -73,7 +80,7 @@
             <div class="header-content-inner">
                 <img data-wow-delay="0.5s" class="logo wow fadeIn" src="img/logo.png">
 
-                <h2 data-wow-delay="0.5s" class="intro-heading wow fadeIn">// We are Spacedog.agency</h2>
+                <h2 data-wow-delay="0.5s" class="intro-heading wow fadeIn">// We are <span class="dog-name">Spacedog.agency</span></h2>
 
                 <p data-wow-delay="0.8s" class="intro wow fadeIn">Spacedog is a full stack agency that boosts business growth by developing products and strategies that can face the future</p>
             </div>
@@ -106,7 +113,7 @@
                 <div class="col-md-7" id="highlighted-text">
                         <h2 class="section-heading">Strategy &amp; Analysis</h2>
 
-                        <p>text</p>
+                        <p>Uppsala is a thriving university city in Sweden. Leveraging digital strategy, we introduced a hip new festival there, for Stockholms Nation. By analyzing data from social feeds, search & display and more, we ensured record engagement and turnout.</p>
 
                         <button type="button" class="btn btn-default btn-client latest">Read more</button>
                 </div>
@@ -124,13 +131,13 @@
                 <div class="col-md-6 col-xs-12 third">
                     <h2 class="portfolio-heading wow fadeIn">Change Management</h2>
 
-                    <h2 class="project-name wow fadeIn">Project 2</h2>
+                    <h2 class="project-name wow fadeIn">Volvo Cars</h2>
 
-                    <button type="button" class="btn btn-default btn-client wow fadeIn">Read more</button>
+                    <p class="project-description">The automotive industry is fast-disrupting. We generated new business opportunities for Volvo Cars with a focus on innovation and future user experience.</p>
 
                 </div>
             </div>
-            <div class="row" id="clients">
+            <div data-wow-duration="2.5s" class="row wow fadeIn" id="clients">
                 <div class="col-lg-12 clients text-center">
                 <div class="col-lg-2 col-sm-2 client-logo text-center">
                 <img class="client" src="img/clients/volvo2.png">
@@ -192,6 +199,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
