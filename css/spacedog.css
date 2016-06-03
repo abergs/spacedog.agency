@@ -334,7 +334,17 @@ h2.intro-heading {
 
 .section-heading {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Simplon BP Medium", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.latest-client {
+    margin-top: 0;
     text-transform: uppercase;
     font-family: "Simplon BP Medium", Helvetica, Arial, sans-serif;
     text-align: left;
@@ -365,8 +375,8 @@ img.highlighted-img {
 }
 
 .col-md-5.highlighted-img {
-    height: 500px;
-    background-image: url("../img/stocken.jpg");
+    min-height: 500px;
+    background-image: url("../img/tmplbg.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -375,7 +385,7 @@ img.highlighted-img {
 }
 
 #highlighted-text {
-    height: 500px;
+    min-height: 500px;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -400,10 +410,10 @@ h2.latest-heading {
 
 
 .col-md-6.col-xs-12.second {
-    height: 250px;
+    min-height: 250px;
     padding: 20px;
     text-align: center;
-    background: url("../img/header4.jpg");
+    background: url("../img/stocken.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -412,10 +422,10 @@ h2.latest-heading {
 }
 
 .col-md-6.col-xs-12.third {
-    height: 250px;
+    min-height: 250px;
     padding: 20px;
     text-align: center;
-    background: url("../img/header3.jpg");
+    background: url("../img/volvobg.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
