@@ -6,12 +6,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Spacedog is a full stack agency that boosts business growth by developing products and strategies that can face the future">
+    <meta name="author" content="spacedog.agency">
     <meta name="theme-color" content="#202430">
     <meta name="og:image" content="img/header2.jpg">
 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+
     <title>spacedog.agency</title>
+
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73569008-3', 'auto');
+  ga('send', 'pageview');
+
+    </script>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -23,7 +40,7 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/spacedog.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,8 +53,8 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <nav id="mainNav" class="navbar navbar-default navbar-static-top">
+        <div data-wow-delay="0.5s" class="container-fluid wow fadeIn">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -50,6 +67,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav class="cl-effect-13">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -59,24 +77,24 @@
                         <a class="page-scroll" href="#portfolio">Our Work</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">What We Do</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Get In Touch</a>
                     </li>
                 </ul>
             </div>
+            </nav>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header data-wow-duration="2.5s" class="wow fadeIn">
         <div class="header-content">
             <div class="header-content-inner">
-                <img class="logo wow fadeIn" src="img/logo.png">
+                <img data-wow-delay="0.5s" class="logo wow fadeIn" src="img/logo.png">
 
-                <p class="intro wow fadeInUp">Spacedog is a full stack agency that boosts business growth by developing products and strategies that can face the future.</p>
+                <h2 data-wow-delay="0.5s" class="intro-heading wow fadeIn">// We are <span class="dog-name">Spacedog.agency</span></h2>
+
+                <p data-wow-delay="0.8s" class="intro wow fadeIn">Spacedog is a full stack agency that boosts business growth by developing products and strategies that can face the future</p>
             </div>
         </div>
     </header>
@@ -85,221 +103,113 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Spacedog.agency</h2>
+                    <h2 class="section-heading">// Who we are</h2>
                     <p>We are specialized in business strategy, digital production and change management. Using our diverse skillsets, we mine key insights and translate them into great business opportunities for our clients, and experiences for their users.
 </p>
                 </div>
             </div>
         </div>
     </section>
-
    
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/volvo.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Volvo Cars
-                                </div>
-                                <div class="project-name">
-                                   The automotive industry is fast-disrupting. We generated new business opportunities for Volvo Cars with a focus on innovation and future user experience.
-
-                                    <p class="project-focus">Business Development | Future Mapping | Concepting</p>
-
-                                   <p><a href="http://www.volvocars.com" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/stocken.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Stockholms Nation
-                                </div>
-                                <div class="project-name">
-                                    Uppsala is a thriving university city in Sweden. Leveraging digital strategy, we introduced a hip new festival there, for Stockholms Nation. By analyzing data from social feeds, search &amp; display and more, we ensured record engagement and turnout.
-
-                                    <p class="project-focus">Social Media Strategy | Analysis | Event Production</p>
-
-                                      <p><a href="http://www.stockengarden.se" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/pg.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    P&G Prestige
-                                </div>
-                                <div class="project-name">
-                                    P&G’s luxury arm couldn’t appeal to the millennials. After intensive user research, digital strategy, concept prototyping and content development, we made their flagship fragrances an attractive top of mind choice. 
-
-                                    <p class="project-focus">Business Development | Research | Prototyping</p>
-
-                                    <p><a href="http://www.pg.com" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/tmpl.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TMPL
-                                </div>
-                                <div class="project-name">
-                                    Connected living is still fragmented. By combining the social aspects with technology and environmental living, we conceptualised and produced a smart ecosystem for housing residents.
-
-                                    <p class="project-focus">Research | User Experience | Application Production</p>
-
-                                    <p><a href="http://www.tmpl.se" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/mondelez.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mondelez
-                                </div>
-                                <div class="project-name">
-                                    Mondelez churns out several campaigns, across their product portfolio. After consulting the world’s largest snacks company, we fine-tuned their campaign and messaging.
-
-                                    <p class="project-focus">Analysis | Feedback | Consultancy</p>
-
-                                    <p><a href="http://www.mondelezinternational.com" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a> 
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/hyperisland.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Hyper Island
-                                </div>
-                                <div class="project-name">
-                                    We enabled Hyper Island, the ‘Digital Harvard’, to communicate the merits of their various programs, with an effective social media strategy. We also spread the Hyper Island methodology by orchestrating workshops in various other schools.
-
-                                    <p class="project-focus">Social Media Strategy | Workshop | Process Design</p>
-
-                                    <p><a href="http://www.hyperisland.com" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/tv4.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    TV4
-                                </div>
-                                <div class="project-name">
-                                    We equipped Sweden largest broadcaster’s digital arsenal by modifying their ‘recommendations’ features for online viewers. Also advised and shaped their company culture to better cope with today’s trends and needs.
-
-                                    <p class="project-focus">Analysis | Concepting | Workshop</p>
-
-                                    <p><a href="http://www.tv4.se" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/rosendals.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Rosendals Fastigheter
-                                </div>
-                                <div class="project-name">
-                                    Real estate is a cut-throat business where Rosendal Fastigheter is already a leader. We defined their value proposition which gave them a sustainable and innovative core. 
-
-                                    <p class="project-focus">Business Development | Value Proposition | Workshop</p>
-
-                                    <p><a href="http://www.rosendaluppsala.se" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-box">
-                        <img src="img/clients/animail.png" class="img-responsive wow fadeIn" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Animail
-                                </div>
-                                <div class="project-name">
-                                    Animail is Sweden’s largest e-commerce platform within the pet-care industry. We analysed their internal processes and bridged the supply chains with their digital platforms. This paved way for streamlined processes and increased productivity.
-
-                                    <p class="project-focus">Business Development | Analysis | E-Commerce</p>
-
-                                    <p><a href="http://www.animail.se" target="_blank"><button type="button" class="btn btn-default btn-client">Visit website</button></p></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <section id="services">
-        <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What We Do</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-puzzle-piece wow fadeIn text-primary"></i>
-                        <h3>DIGITAL PRODUCTION</h3>
-                        <p>We take pride in being innovative front-runners in tech and design. We develop and build crisp digital products on the right medium, for the precise business and user needs.</p>
+                <div class="col-md-5 highlighted-img wow fadeIn">
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                         <h2 class="featured-heading">// Featured Project</h2>
+                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-tachometer wow fadeIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>STRATEGY &amp; ANALYSIS</h3>
-                        <p>We use structured methodologies to collect and analyze data. This helps us to land the needed insights, small or sizable, which shape enduring business and marketing strategies.</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-pencil-square wow fadeIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>CHANGE MANAGEMENT</h3>
-                        <p>A great company is more than an excellent product. Lasting legacy comes from an inspiring workplace. By designing workshops, we observe and tweak companies from the inside. That’s how we craft disruptive teams and a fruitful culture.</p>
-                    </div>
-                </div>
+                <div class="col-md-7" id="highlighted-text">
+                        <h2 class="latest-heading">Digital Production</h2>
 
+                        <h2 class="latest-client">TMPL</h2>
+
+                        <p>The thought of a well-functioning residential area has changed dramatically the last decade. We are in many ways shielded from our neighbors compared to past times, the connected living is fragmented. After some user-research, we understood that there is still a need to communicate and interact between neighbors.</p>
+
+<p>By combining the social aspects with technology and environmental living, we conceptualized and produced a smart ecosystem for housing residents. A mobile platform for interaction between people within the same neighborhood, apartment complex or housing association.</p>
+
+<p>The project was kick-started with concept development, and later prototyped into an interactive platform. As everything was in place and tested by potential users, the project jumped into production phase and followed by technical quality assurance. The production included everything from system architecture to UX/UI design.</p>
+
+<p>We tested the first beta version(MVP), both in-house and with independent users. After showing great results, TMPL was trusted by one of the leading Real Estate contractors of sustainable and innovative buildings in Sweden.</p>
+
+                        <a href="http://www.tmpl.se" target="_blank">
+                        <button type="button" class="btn btn-default btn-client latest">Visit website</button>
+                        </a>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-6 col-xs-12 second">
+                    <h2 class="portfolio-heading wow fadeIn">Strategy &amp; Analysis</h2>
+
+                    <h2 class="project-name wow fadeIn">Stockholms Nation</h2>
+
+                    <p class="project-description">Uppsala is a thriving university city in Sweden. Leveraging digital strategy, we introduced a hip new festival there, for Stockholms Nation. By analyzing data from social feeds, search & display and more, we ensured record engagement and turnout.</p>
+
+                    <a href="http://www.stockengarden.se" target="_blank">
+                    <button type="button" class="btn btn-default btn-client wow fadeIn">Visit Website</button>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-xs-12 third">
+                    <h2 class="portfolio-heading wow fadeIn">Concept Development</h2>
+
+                    <h2 class="project-name wow fadeIn">Volvo Cars</h2>
+
+                    <p class="project-description">The automotive industry is fast-disrupting. We generated new business opportunities for Volvo Cars with a focus on innovation and future user experience.</p>
+
+                </div>
             </div>
-        </div>
+            <div data-wow-duration="2.5s" class="row wow fadeIn" id="clients">
+                <div class="col-lg-12 clients text-center">
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/volvo2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/tmpl2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/rosendals2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/stocken2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/animail2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/hyperisland2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/mondelez2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/panalpina2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/pg2.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/tv42.png">
+                </div>
+                <div class="col-lg-2 col-sm-2 client-logo text-center">
+                <img class="client" src="img/clients/unilever2.png">
+                </div>
+                </div>
+            </div>
+            </div>
     </section>
 
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's create change together</h2>
-                    <p>Send us an email and we will be in touch as soon as possible!</p>
-                </div>
                 <div class="col-lg-12 text-center">
-                    <a href="mailto:hello@spacedog.agency"><i class="fa fa-rocket fa-3x wow fadeIn" data-wow-delay=".1s"></i>
-                    <p>hello@spacedog.agency</a></p>
+                    <a href="mailto:hello@spacedog.agency">
+                    <h2 class="hello wow fadeIn">hello@spacedog.agency</a></h2>
+                    <p data-wow-delay=".25s" class="hello wow fadeIn"><a href="https://www.linkedin.com/company/spacedog.agency" target="_blank">LinkedIn</a> <!--Facebook--></p>
                 </div>
             </div>
         </div>
@@ -315,6 +225,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
